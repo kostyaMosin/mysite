@@ -203,3 +203,263 @@ INFO  - 2020-09-12 12:34:17.869; org.apache.solr.core.CachingDirectoryFactory; C
 INFO  - 2020-09-12 12:34:17.870; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data [CachedDir<<refCount=0;path=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data;done=false>>]
 INFO  - 2020-09-12 12:34:17.870; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data
 INFO  - 2020-09-12 12:34:17.872; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr-webapp/webapp/},/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/webapps/solr.war
+INFO  - 2020-09-13 14:17:09.999; org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2020-09-13 14:17:10.045; org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/contexts at interval 0
+INFO  - 2020-09-13 14:17:10.057; org.eclipse.jetty.deploy.DeploymentManager; Deployable added: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/contexts/solr-jetty-context.xml
+INFO  - 2020-09-13 14:17:11.121; org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2020-09-13 14:17:11.197; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()
+INFO  - 2020-09-13 14:17:11.215; org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2020-09-13 14:17:11.216; org.apache.solr.core.SolrResourceLoader; solr home defaulted to 'solr/' (could not find system property or JNDI)
+INFO  - 2020-09-13 14:17:11.217; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/'
+INFO  - 2020-09-13 14:17:11.399; org.apache.solr.core.ConfigSolr; Loading container configuration from /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/solr.xml
+INFO  - 2020-09-13 14:17:11.545; org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr
+INFO  - 2020-09-13 14:17:11.556; org.apache.solr.core.CoreContainer; New CoreContainer 1292040526
+INFO  - 2020-09-13 14:17:11.556; org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=solr/]
+INFO  - 2020-09-13 14:17:11.574; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 0
+INFO  - 2020-09-13 14:17:11.575; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2020-09-13 14:17:11.579; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 0
+INFO  - 2020-09-13 14:17:11.580; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2020-09-13 14:17:11.582; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2020-09-13 14:17:11.583; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2020-09-13 14:17:11.583; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2020-09-13 14:17:11.584; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2020-09-13 14:17:11.585; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2020-09-13 14:17:11.585; org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2020-09-13 14:17:11.796; org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=0&connTimeout=0&retry=true
+INFO  - 2020-09-13 14:17:11.799; org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2020-09-13 14:17:11.801; org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2020-09-13 14:17:11.803; org.apache.solr.core.CoreContainer; Host Name: 
+INFO  - 2020-09-13 14:17:11.852; org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr
+INFO  - 2020-09-13 14:17:11.871; org.apache.solr.core.CorePropertiesLocator; Found core collection1 in /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/
+INFO  - 2020-09-13 14:17:11.872; org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions
+INFO  - 2020-09-13 14:17:11.875; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: '/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/'
+INFO  - 2020-09-13 14:17:11.955; org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2020-09-13 14:17:11.958; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2020-09-13 14:17:11.958; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/isoparser-1.0-RC-1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.958; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.959; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2020-09-13 14:17:11.961; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/aspectjrt-1.6.11.jar' to classloader
+INFO  - 2020-09-13 14:17:11.961; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/vorbis-java-core-0.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.962; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2020-09-13 14:17:11.962; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2020-09-13 14:17:11.963; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2020-09-13 14:17:11.963; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/poi-scratchpad-3.10.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.964; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2020-09-13 14:17:11.964; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.965; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/poi-3.10.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.965; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/dom4j-1.6.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.965; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/poi-ooxml-3.10.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.966; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/tika-parsers-1.5.jar' to classloader
+INFO  - 2020-09-13 14:17:11.966; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/icu4j-53.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.967; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2020-09-13 14:17:11.967; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2020-09-13 14:17:11.968; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/jhighlight-1.0.jar' to classloader
+INFO  - 2020-09-13 14:17:11.968; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2020-09-13 14:17:11.968; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/rome-0.9.jar' to classloader
+INFO  - 2020-09-13 14:17:11.969; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/fontbox-1.8.4.jar' to classloader
+INFO  - 2020-09-13 14:17:11.969; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/poi-ooxml-schemas-3.10.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.970; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/vorbis-java-tika-0.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.970; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/jempbox-1.8.4.jar' to classloader
+INFO  - 2020-09-13 14:17:11.970; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/commons-compress-1.7.jar' to classloader
+INFO  - 2020-09-13 14:17:11.971; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2020-09-13 14:17:11.971; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/pdfbox-1.8.4.jar' to classloader
+INFO  - 2020-09-13 14:17:11.972; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/tika-core-1.5.jar' to classloader
+INFO  - 2020-09-13 14:17:11.972; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/xz-1.4.jar' to classloader
+INFO  - 2020-09-13 14:17:11.973; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/extraction/lib/tika-xmp-1.5.jar' to classloader
+INFO  - 2020-09-13 14:17:11.974; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/dist/solr-cell-4.10.4.jar' to classloader
+INFO  - 2020-09-13 14:17:11.975; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2020-09-13 14:17:11.976; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2020-09-13 14:17:11.976; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.977; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2020-09-13 14:17:11.978; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2020-09-13 14:17:11.978; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2020-09-13 14:17:11.979; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2020-09-13 14:17:11.979; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2020-09-13 14:17:11.980; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/dist/solr-clustering-4.10.4.jar' to classloader
+INFO  - 2020-09-13 14:17:11.981; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2020-09-13 14:17:11.982; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2020-09-13 14:17:11.983; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/dist/solr-langid-4.10.4.jar' to classloader
+INFO  - 2020-09-13 14:17:11.984; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2020-09-13 14:17:11.984; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2020-09-13 14:17:11.985; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2020-09-13 14:17:11.985; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2020-09-13 14:17:11.986; org.apache.solr.core.SolrResourceLoader; Adding 'file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/dist/solr-velocity-4.10.4.jar' to classloader
+INFO  - 2020-09-13 14:17:12.189; org.apache.solr.update.SolrIndexConfig; IndexWriter infoStream solr logging is enabled
+INFO  - 2020-09-13 14:17:12.204; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 4.10.4
+INFO  - 2020-09-13 14:17:12.338; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2020-09-13 14:17:12.347; org.apache.solr.schema.IndexSchema; Reading Solr Schema from /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf/schema.xml
+INFO  - 2020-09-13 14:17:12.397; org.apache.solr.schema.IndexSchema; [collection1] Schema name=example
+INFO  - 2020-09-13 14:17:13.008; org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2020-09-13 14:17:13.024; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedWordSetResource for path /schema/analysis/stopwords/english
+INFO  - 2020-09-13 14:17:13.025; org.apache.solr.rest.RestManager$Registry; Registered ManagedResource impl org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager for path /schema/analysis/synonyms/english
+INFO  - 2020-09-13 14:17:13.120; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2020-09-13 14:17:13.126; org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2020-09-13 14:17:13.268; org.apache.solr.core.CoreContainer; Creating SolrCore 'collection1' using configuration from instancedir /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/
+INFO  - 2020-09-13 14:17:13.294; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2020-09-13 14:17:13.303; org.apache.solr.core.SolrCore; [collection1] Opening new SolrCore at /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/, dataDir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data/
+INFO  - 2020-09-13 14:17:13.307; org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2020-09-13 14:17:13.311; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2020-09-13 14:17:13.312; org.apache.solr.core.SolrCore; [collection1] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}
+INFO  - 2020-09-13 14:17:13.328; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data
+INFO  - 2020-09-13 14:17:13.332; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data/index/
+INFO  - 2020-09-13 14:17:13.333; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2020-09-13 14:17:13.357; org.apache.solr.core.SolrCore; created json: solr.JSONResponseWriter
+INFO  - 2020-09-13 14:17:13.357; org.apache.solr.core.SolrCore; adding lazy queryResponseWriter: solr.VelocityResponseWriter
+INFO  - 2020-09-13 14:17:13.358; org.apache.solr.core.SolrCore; created velocity: solr.VelocityResponseWriter
+INFO  - 2020-09-13 14:17:13.361; org.apache.solr.core.SolrCore; created xslt: solr.XSLTResponseWriter
+INFO  - 2020-09-13 14:17:13.362; org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2020-09-13 14:17:13.469; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2020-09-13 14:17:13.477; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:17:13.477; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:17:13.477; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:17:13.478; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:17:13.483; org.apache.solr.core.RequestHandlers; created /select: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.483; org.apache.solr.core.RequestHandlers; created /query: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.485; org.apache.solr.core.RequestHandlers; created /get: solr.RealTimeGetHandler
+INFO  - 2020-09-13 14:17:13.485; org.apache.solr.core.RequestHandlers; created /export: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.486; org.apache.solr.core.RequestHandlers; created /browse: solr.SearchHandler
+WARN  - 2020-09-13 14:17:13.487; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:17:13.488; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2020-09-13 14:17:13.488; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.extraction.ExtractingRequestHandler
+INFO  - 2020-09-13 14:17:13.489; org.apache.solr.core.RequestHandlers; created /update/extract: solr.extraction.ExtractingRequestHandler
+INFO  - 2020-09-13 14:17:13.489; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.FieldAnalysisRequestHandler
+INFO  - 2020-09-13 14:17:13.490; org.apache.solr.core.RequestHandlers; created /analysis/field: solr.FieldAnalysisRequestHandler
+INFO  - 2020-09-13 14:17:13.490; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.DocumentAnalysisRequestHandler
+INFO  - 2020-09-13 14:17:13.490; org.apache.solr.core.RequestHandlers; created /analysis/document: solr.DocumentAnalysisRequestHandler
+INFO  - 2020-09-13 14:17:13.492; org.apache.solr.core.RequestHandlers; created /admin/: solr.admin.AdminHandlers
+INFO  - 2020-09-13 14:17:13.494; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2020-09-13 14:17:13.497; org.apache.solr.core.RequestHandlers; created /debug/dump: solr.DumpRequestHandler
+INFO  - 2020-09-13 14:17:13.508; org.apache.solr.core.RequestHandlers; created /replication: solr.ReplicationHandler
+INFO  - 2020-09-13 14:17:13.509; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.510; org.apache.solr.core.RequestHandlers; created /spell: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.512; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.512; org.apache.solr.core.RequestHandlers; created /tvrh: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.514; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.514; org.apache.solr.core.RequestHandlers; created /terms: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.515; org.apache.solr.core.RequestHandlers; adding lazy requestHandler: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.515; org.apache.solr.core.RequestHandlers; created /elevate: solr.SearchHandler
+INFO  - 2020-09-13 14:17:13.540; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:17:13.543; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:17:13.545; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:17:13.546; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:17:13.548; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:17:13.567; org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2020-09-13 14:17:13.567; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2020-09-13 14:17:13.616; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data/index lockFactory=NativeFSLockFactory@/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2020-09-13 14:17:13.617; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2020-09-13 14:17:13.627; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@f27e1e5[collection1] main
+INFO  - 2020-09-13 14:17:13.637; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2020-09-13 14:17:13.637; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf}
+INFO  - 2020-09-13 14:17:13.639; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2020-09-13 14:17:13.648; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _rest_managed.json using file:dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2020-09-13 14:17:13.648; org.apache.solr.rest.ManagedResource; Loaded initArgs {} for /rest/managed
+INFO  - 2020-09-13 14:17:13.649; org.apache.solr.rest.RestManager; Initializing 2 registered ManagedResources
+INFO  - 2020-09-13 14:17:13.649; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_stopwords_english.json using file:dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2020-09-13 14:17:13.651; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_stopwords_english.json using file:dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2020-09-13 14:17:13.652; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true} for /schema/analysis/stopwords/english
+INFO  - 2020-09-13 14:17:13.652; org.apache.solr.rest.schema.analysis.ManagedWordSetResource; Loaded 35 words for /schema/analysis/stopwords/english
+INFO  - 2020-09-13 14:17:13.653; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/stopwords/english
+INFO  - 2020-09-13 14:17:13.654; org.apache.solr.rest.ManagedResourceStorage; Reading _schema_analysis_synonyms_english.json using file:dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2020-09-13 14:17:13.655; org.apache.solr.rest.ManagedResourceStorage; Loaded LinkedHashMap at path _schema_analysis_synonyms_english.json using file:dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf
+INFO  - 2020-09-13 14:17:13.655; org.apache.solr.rest.ManagedResource; Loaded initArgs {ignoreCase=true,format=solr} for /schema/analysis/synonyms/english
+INFO  - 2020-09-13 14:17:13.656; org.apache.solr.rest.schema.analysis.ManagedSynonymFilterFactory$SynonymManager; Loaded 3 synonym mappings for /schema/analysis/synonyms/english
+INFO  - 2020-09-13 14:17:13.660; org.apache.solr.rest.ManagedResource; Notified 1 observers of /schema/analysis/synonyms/english
+INFO  - 2020-09-13 14:17:13.660; org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2020-09-13 14:17:13.669; org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2020-09-13 14:17:13.678; org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2020-09-13 14:17:13.681; org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/conf/elevate.xml
+INFO  - 2020-09-13 14:17:13.726; org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2020-09-13 14:17:13.727; org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@f27e1e5[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2020-09-13 14:17:13.745; org.apache.solr.core.CoreContainer; registering core: collection1
+INFO  - 2020-09-13 14:17:13.751; org.apache.solr.servlet.SolrDispatchFilter; user.dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example
+INFO  - 2020-09-13 14:17:13.752; org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2020-09-13 14:17:13.783; org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2020-09-13 14:17:13.806; org.apache.solr.core.SolrCore; [collection1] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=77 
+INFO  - 2020-09-13 14:17:13.807; org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2020-09-13 14:17:13.807; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2020-09-13 14:17:13.808; org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2020-09-13 14:17:13.808; org.apache.solr.core.SolrCore; [collection1] Registered new searcher Searcher@f27e1e5[collection1] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2020-09-13 14:17:32.152; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1599995852139} status=0 QTime=3 
+INFO  - 2020-09-13 14:17:32.445; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json&_=1599995852306} status=0 QTime=117 
+INFO  - 2020-09-13 14:17:55.186; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1599995875158} status=0 QTime=3 
+INFO  - 2020-09-13 14:17:55.262; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1599995875224} status=0 QTime=1 
+INFO  - 2020-09-13 14:18:03.473; org.apache.solr.handler.admin.CoreAdminHandler; core create command schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1599995883465
+INFO  - 2020-09-13 14:18:03.476; org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'solr/blog/'
+INFO  - 2020-09-13 14:18:03.511; org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 3.6.0
+INFO  - 2020-09-13 14:18:03.532; org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2020-09-13 14:18:03.532; org.apache.solr.schema.IndexSchema; Reading Solr Schema from solr/blog/conf/schema.xml
+INFO  - 2020-09-13 14:18:03.537; org.apache.solr.schema.IndexSchema; [blog] Schema name=default
+WARN  - 2020-09-13 14:18:03.542; org.apache.solr.schema.IndexSchema; no uniqueKey specified in schema.
+INFO  - 2020-09-13 14:18:03.543; org.apache.solr.core.CoreContainer; Creating SolrCore 'blog' using configuration from instancedir solr/blog/
+INFO  - 2020-09-13 14:18:03.549; org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2020-09-13 14:18:03.550; org.apache.solr.core.SolrCore; [blog] Opening new SolrCore at solr/blog/, dataDir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/
+INFO  - 2020-09-13 14:18:03.550; org.apache.solr.core.SolrCore; JMX monitoring not detected for core: blog
+INFO  - 2020-09-13 14:18:03.551; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data
+INFO  - 2020-09-13 14:18:03.552; org.apache.solr.core.SolrCore; New index directory detected: old=null new=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index/
+WARN  - 2020-09-13 14:18:03.553; org.apache.solr.core.SolrCore; [blog] Solr index directory '/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index' doesn't exist. Creating new index...
+INFO  - 2020-09-13 14:18:03.553; org.apache.solr.core.CachingDirectoryFactory; return new directory for /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index
+INFO  - 2020-09-13 14:18:03.566; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index lockFactory=NativeFSLockFactory@/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2020-09-13 14:18:03.567; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2020-09-13 14:18:03.571; org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2020-09-13 14:18:03.572; org.apache.solr.core.RequestHandlers; created /update: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:18:03.574; org.apache.solr.core.RequestHandlers; created /update/json: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:18:03.575; org.apache.solr.core.RequestHandlers; created /update/csv: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:18:03.575; org.apache.solr.core.RequestHandlers; created /update/json/docs: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:18:03.577; org.apache.solr.core.RequestHandlers; created /select: solr.StandardRequestHandler
+WARN  - 2020-09-13 14:18:03.578; org.apache.solr.core.RequestHandlers; Multiple requestHandler registered to the same name: /update ignoring: org.apache.solr.handler.UpdateRequestHandler
+INFO  - 2020-09-13 14:18:03.578; org.apache.solr.core.RequestHandlers; created /update: solr.UpdateRequestHandler
+INFO  - 2020-09-13 14:18:03.579; org.apache.solr.core.RequestHandlers; created /admin: solr.admin.AdminHandlers
+INFO  - 2020-09-13 14:18:03.579; org.apache.solr.core.RequestHandlers; created /admin/ping: solr.PingRequestHandler
+INFO  - 2020-09-13 14:18:03.583; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:18:03.587; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:18:03.588; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:18:03.590; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:18:03.592; org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2020-09-13 14:18:03.601; org.apache.solr.update.CommitTracker; Hard AutoCommit: disabled
+INFO  - 2020-09-13 14:18:03.601; org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2020-09-13 14:18:03.611; org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index lockFactory=NativeFSLockFactory@/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2020-09-13 14:18:03.611; org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2020-09-13 14:18:03.612; org.apache.solr.search.SolrIndexSearcher; Opening Searcher@41f66d1f[blog] main
+INFO  - 2020-09-13 14:18:03.612; org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/conf
+INFO  - 2020-09-13 14:18:03.613; org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/conf}
+INFO  - 2020-09-13 14:18:03.614; org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/conf
+WARN  - 2020-09-13 14:18:03.614; org.apache.solr.rest.ManagedResource; No stored data found for /rest/managed
+INFO  - 2020-09-13 14:18:03.618; org.apache.solr.rest.ManagedResourceStorage$JsonStorage; Saved JSON object to path _rest_managed.json using file:dir=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/conf
+INFO  - 2020-09-13 14:18:03.619; org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2020-09-13 14:18:03.620; org.apache.solr.core.CoreContainer; registering core: blog
+INFO  - 2020-09-13 14:18:03.621; org.apache.solr.core.SolrCore; [blog] Registered new searcher Searcher@41f66d1f[blog] main{StandardDirectoryReader(segments_1:1:nrt)}
+INFO  - 2020-09-13 14:18:03.627; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={schema=schema.xml&dataDir=data&name=blog&indexInfo=false&action=CREATE&collection=&shard=&wt=json&instanceDir=blog&config=solrconfig.xml&_=1599995883465} status=0 QTime=154 
+INFO  - 2020-09-13 14:18:03.643; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1599995883636} status=0 QTime=2 
+INFO  - 2020-09-13 14:18:04.919; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1599995884896} status=0 QTime=2 
+INFO  - 2020-09-13 14:18:20.949; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/properties params={wt=json&_=1599995900930} status=0 QTime=1 
+INFO  - 2020-09-13 14:18:30.379; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1599995910346} status=0 QTime=1 
+INFO  - 2020-09-13 14:18:30.416; org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={wt=json&_=1599995910401} status=0 QTime=2 
+INFO  - 2020-09-13 14:19:11.841; org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2020-09-13 14:19:11.842; org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr-webapp/webapp/},/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/webapps/solr.war
+INFO  - 2020-09-13 14:19:12.844; org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=1292040526
+INFO  - 2020-09-13 14:19:12.846; org.apache.solr.core.SolrCore; [collection1]  CLOSING SolrCore org.apache.solr.core.SolrCore@66c2c72e
+INFO  - 2020-09-13 14:19:12.847; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=0,transaction_logs_total_number=0}
+INFO  - 2020-09-13 14:19:12.848; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2020-09-13 14:19:12.849; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2020-09-13 14:19:12.850; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2020-09-13 14:19:12.854; org.apache.solr.core.SolrCore; [collection1] Closing main searcher on request.
+INFO  - 2020-09-13 14:19:12.856; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2020-09-13 14:19:12.857; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data [CachedDir<<refCount=0;path=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data;done=false>>]
+INFO  - 2020-09-13 14:19:12.857; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data
+INFO  - 2020-09-13 14:19:12.857; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data/index [CachedDir<<refCount=0;path=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data/index;done=false>>]
+INFO  - 2020-09-13 14:19:12.858; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/collection1/data/index
+INFO  - 2020-09-13 14:19:12.858; org.apache.solr.core.SolrCore; [blog]  CLOSING SolrCore org.apache.solr.core.SolrCore@3e406d3a
+INFO  - 2020-09-13 14:19:12.858; org.apache.solr.update.DirectUpdateHandler2; closing DirectUpdateHandler2{commits=0,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0}
+INFO  - 2020-09-13 14:19:12.858; org.apache.solr.update.SolrCoreState; Closing SolrCoreState
+INFO  - 2020-09-13 14:19:12.859; org.apache.solr.update.DefaultSolrCoreState; SolrCoreState ref count has reached 0 - closing IndexWriter
+INFO  - 2020-09-13 14:19:12.859; org.apache.solr.update.DefaultSolrCoreState; closing IndexWriter with IndexWriterCloser
+INFO  - 2020-09-13 14:19:12.864; org.apache.solr.core.SolrCore; [blog] Closing main searcher on request.
+INFO  - 2020-09-13 14:19:12.865; org.apache.solr.core.CachingDirectoryFactory; Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+INFO  - 2020-09-13 14:19:12.865; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index [CachedDir<<refCount=0;path=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index;done=false>>]
+INFO  - 2020-09-13 14:19:12.865; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data/index
+INFO  - 2020-09-13 14:19:12.866; org.apache.solr.core.CachingDirectoryFactory; looking to close /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data [CachedDir<<refCount=0;path=/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data;done=false>>]
+INFO  - 2020-09-13 14:19:12.866; org.apache.solr.core.CachingDirectoryFactory; Closing directory: /home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr/blog/data
+INFO  - 2020-09-13 14:19:12.868; org.eclipse.jetty.server.handler.ContextHandler; stopped o.e.j.w.WebAppContext{/solr,file:/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/solr-webapp/webapp/},/home/k_mosin/PycharmProjects/mysite/opt/solr/solr-4.10.4/example/webapps/solr.war
